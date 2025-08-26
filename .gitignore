@@ -1,0 +1,69 @@
+# Root .gitignore for Vivid_Stories (monorepo-friendly)
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node/JS
+node_modules/
+**/node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+.dist/
+dist/
+build/
+.cache/
+.turbo/
+coverage/
+.nyc_output/
+
+# Next.js
+.next/
+**/.next/
+out/
+**/out/
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+
+# Env files (keep examples)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.development.local
+.env.test.local
+.env.production.local
+!.env.example
+!**/.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors/IDE
+.idea/
+*.iml
+
+# Python (future server)
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# Test artifacts
+cypress/videos/
+cypress/screenshots/
