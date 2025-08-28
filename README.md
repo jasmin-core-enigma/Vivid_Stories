@@ -134,13 +134,11 @@ Modern text-to-image, controllable generation, and diagram libraries make this f
 - SaaS funnel: Home → Try once (anonymous) → Login (Supabase) → Subscribe (Stripe) → Unlimited per plan; quotas enforced server-side via Pricing module.
 
 ## Product strategy and pipelines
-- Niche focus (recommended): Engineering diagrams first — see docs/PRODUCT_STRATEGY.md
-- Pipelines:
   - Editing existing diagrams (SVG + raster): docs/PIPELINES/DIAGRAM_EDITING.md
   - Text → Diagram graph: docs/PIPELINES/TEXT_TO_GRAPH.md
+  - Roadmap: docs/ROADMAP/ROADMAP.md
+  - MVP UML Workflow: docs/ROADMAP/MVP_UML_WORKFLOW.md
 
-
-## Pages (initial)
 - Home: value prop + "Try it" button.
 - Try: one-page text input + doodle canvas; single generation (rate-limited).
 - App/Editor: split view, slideshow, save/load.
